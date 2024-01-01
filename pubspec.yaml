@@ -1,0 +1,36 @@
+name: radio_app
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sleek_circular_slider: ^2.0.1
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+  country_code_picker: ^3.0.0
+  image_picker: ^1.0.5
+  pin_code_fields: ^8.0.1
+  miniplayer: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/onboard/
+    - assets/images/demo/
+    - assets/images/icon/
+    - assets/images/social/
